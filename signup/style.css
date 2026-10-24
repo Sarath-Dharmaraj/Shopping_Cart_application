@@ -1,0 +1,34 @@
+body{
+    font-size: x-large;
+    font-weight: lighter;
+}
+#submit-form{
+    padding: 1% 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    width: 100%;
+    height: 30px;
+}
+button{
+    width: fit-content;
+    font-size: large;
+    color: white;
+    margin-top: 10px;
+    padding: 5px 20px;
+    background-color: black;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 768px){
+    button {
+        margin-left: auto;
+        
+    }
+}
