@@ -23,6 +23,7 @@ document.getElementById('submit-form').addEventListener('submit', (e) => {
     localStorage.setItem('users', JSON.stringify(users))
 
     user.token = generateToken()
+    delete user.password
     localStorage.setItem('currUser', JSON.stringify(user))
     console.log(user)
 })
