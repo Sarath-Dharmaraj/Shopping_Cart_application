@@ -15,7 +15,7 @@ document.getElementById('submit-form').addEventListener('submit', (e) => {
     
     const user = {
         firstname: firstname,
-        lasttname: lasttname,
+        lastname: lasttname,
         email: email,
         password: password
     }

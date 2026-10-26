@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Sign Up</title>
+    <link rel='stylesheet' href='../style.css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <h3>My Profile</h3>
+    <form id="submit-name">
+        <div>
+            <label for="firstname">First Name:</label> <br>
+            <input type="text" name="firstname" id="firstname" required>
+        </div>
+        <div>
+            <label for="lastname">Last Name:</label> <br>
+            <input type="text" name="lastname" id="lastname" required>
+        </div>
+        <button type="submit" id="btn-name">Save Info</button>
+    </form>
+    <h3>Edit Password</h3>
+    <form id="submit-password">
+        <div>
+            <label for="old-password">Old Paasword:</label> <br>
+            <input type="password" name="old-password" id="old-password" required>
+        </div>
+        <div>
+            <label for="new-password">New Password:</label> <br>
+            <input type="password" name="new-password" id="new-password" required>
+        </div>
+        <div>
+            <label for="confirm-password">Confirm Password:</label> <br>
+            <input type="password" name="confirm-password" id="confirm-password" required>
+        </div>
+
+
+        <button type="submit" id="btn-password">Change Password</button>
+    </form>
+    <button type="button" id="btn-logout">Log Out</button>
+    <script src="../header.js"></script>
+    <script src="../utils/generateToken.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
